@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Challenger</title>
+</head>
+
+<body>
+        <header>
+            <img class="logotipo" src="imagenes/Logo.svg" alt="logo">
+        </header>   
+        <main>
+            <section class="seccion1">
+                <div class ="contenedor-cajatxt">
+                    <textarea placeholder="Ingrese el Texto aqui" class="cajatexto"></textarea>
+                </div>
+                <div class="alerta"> 
+                    <img src="imagenes/alerta.svg" alt="alerta">
+                    <p>Solo letras minusculas y sin acentos </p>
+                </div>
+                <div class="contenedor-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desenciptar" value="Desencriptar">
+
+
+                </div>
+            </section>
+      
+            <section class="section2">   
+                <div class="contenedor-muneco">
+                <img src="imagenes/Muñeco.svg" alt="muneco">
+            </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningun mensaje <br> encontrado</h3>
+                    <p>ingresa el texto que desses ncriptar o <br> desencriptar.</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="boton-copiar" value="Copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <P class="txt-resultado"> </P>
+
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
